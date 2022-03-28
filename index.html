@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="counter_block">
+          <div id="timer" class="counter">00</div>
+          <div class="units">Seconds</div>
+        </div>        
+        <div class="counter">:</div>
+        <div class="counter_block">
+          <div id="minute" class="counter">00</div>
+          <div class="units">Minutes</div>
+        </div>        
+        <div class="counter">:</div>
+        <div class="counter_block">
+          <div id="hours" class="counter">00</div>
+          <div class="units">Hours</div>
+        </div>         
+        <div class="counter">:</div>
+        <div class="counter_block">
+          <div id="days" class="counter">00</div>
+          <div class="units">Days</div>
+        </div>         
+      </div>
+      <div class="buttons-block">
+        <div>
+          <button id="btn-start" class="button" onclick="timerStart()">START</button>
+        </div>
+        <div>
+          <button id="btn-stop" class="button" onclick="timerStop()">STOP</button>
+        </div>
+        <div>
+          <button id="btn-clear" class="button" onclick="timerClear()">CLEAR</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
